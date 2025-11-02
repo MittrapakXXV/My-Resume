@@ -1,0 +1,187 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Timeline</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script defer src="script.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- ✅ Just the hamburger button -->
+<button class="navbar-toggler hamburger-fixed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Optional hidden menu (collapses when clicked) -->
+<div class="collapse bg-light p-3" id="navbarNav" style="position:fixed; top:0; left:0; height:100vh; width:250px;">
+  <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: white; font-family: DMC;">My Resume</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <!-- Hero -->
+          <header class="hero">
+            <div class="container text-center">
+              <img src="Image/ProfilePicture.png" alt="Profile Picture">
+              <h1 style="font-size: 5vw; font-family: DMC;" >Mittrapak Klomjai</h1>
+              <p style="font-size: 2vw" class="lead">Full-Stack Web Developer </p>
+              <p style="font-size: 1.76vw" > Bangkok, Thailand | john@example.com </p>
+            </div>
+          </header>
+          <hr></hr>
+          <section id="headline" class="faker"></section>
+          <!-- About -->
+          <section id="about" class="fake-section"></section>
+          <!-- Experience -->
+          <section id="experience" class="fake-section"></section>
+          <!-- Education -->
+          <section id="education" class="fake-section"></section>
+          <!-- Skills -->
+          <section id="skills" class="fake-section"></section>
+          <!-- Contact -->
+          <section id="contact" class="fake-section"></section>
+
+
+
+
+          <!-- Dynamic Section!-->
+          <div class="wheel">
+              <section id="about1" class="real-section bg-light">
+                <div class="container">
+                    <div class="container">
+                      <h2>About Me</h2>
+                      <p> A motivated student seeking opportunity to grow and improve his experience and knowledge in Full-Stack Development through training.
+                      </p> </div>
+                </div>
+              </section>
+
+              <!-- Experience -->
+              <section id="experience1" class="real-section bg-light">
+                <div class="container"> 
+                  <h2>Experience</h2> 
+                  <div class="card p-3" style="text-align: left;"> 
+                    <h1 style="font-size: 3vw;">Trainee — CP ALL Public Co., Ltd. (7-ELEVEN)</h1> 
+                    <small style="font-size: 2vw;">Mar 2025 - May 2025</small> 
+                    <ul style="font-size: 2vw;">
+                      <li>
+                        Provided good customer services and brought satisfaction to customers.
+                      </li>
+                    </ul> 
+                  </div> 
+
+              </section>
+
+              <!-- Education -->
+              <section id="education1" class="real-section bg-light">
+                <h2>Education</h2> 
+                  <div class="card p-3" style="text-align: left; font-size: 2vw"> 
+                    <h1 style="text-align: left; font-size: 3vw">B.Eng. in Computer
+                      Engineering and Artificial
+                      Intelligence | GPA: 3.88</h1> 
+                      <small>Panyapiwat Institute of
+                      Management | Pak-Kret,
+                      Nonthaburi, Thailand</small> 
+                      <small>2024 - Present</small> 
+
+                  </div> 
+
+                  <div class="card p-3" style="text-align: left; font-size: 2vw"> 
+                     <h1 style="text-align: left; font-size: 3vw">Senior High School in
+                        Science, Math | GPA: 3.38</h1> 
+                        <small>Assumption Convent
+                        Lamnarai | Chai-Badan,
+                        Lopburi, Thailand</small>
+                        <small>2021 – 2024</small> 
+
+                  </div> 
+              </section>
+
+              <!-- Skills -->
+              <section id="skills1" class="real-section bg-light">
+                <div class="container"> 
+                  <h2>Skills</h2> 
+                  <div class="row"> 
+                    <div class="col-md-4"> 
+                      <ul><li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap, Tailwind</li></ul>
+                      </div> <div class="col-md-4"> <ul>
+                        <li>React, Node.js</li>
+                        <li>Python, Django</li>
+                      </ul> </div> <div class="col-md-4"> <ul>
+                        <li>Git/li>
+                          
+                        <li>REST APIs</li>
+                      </ul>
+                     </div> 
+                    </div> 
+                  </div>
+              </section>
+
+              <!-- Contact -->
+              <section id="contact1" class="real-section bg-light">
+                <div class="container text-center">
+                  <h2>Contact Us</h2>
+                    <div>
+                    <ol style="text-align: left; font-size: 3.5vw;">
+                      <li>Email: <a href="https://www.youtube.com/watch?v=g_93xQfRjEI&list=RDg_93xQfRjEI&start_radio=1", style="color: pink; text-decoration: underline;">6752300488@stu.pim.ac.th</a></li>
+                      <li>Phone: <a href="tel:+1234567890" style="color: pink; text-decoration: underline;">+1 234 567 890</a></li>
+                      <li>Address: 123 Main Street, Bangkok, Thailand</li>
+                    </ol>
+                    <div>
+                </div>
+              </section>
+          </div>
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    2025 Mittrapak Klomjai — Built with Bootstrap 5
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
